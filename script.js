@@ -4,12 +4,12 @@ let isDarkMode = false;
 
 themeToggle.addEventListener('click', () => {
     if (isDarkMode) {
-        themeStyle.setAttribute('href', 'light-style.css');
+        themeStyle.setAttribute('href', 'dark-style.css');
         isDarkMode = false;
     }
     else 
     {
-        themeStyle.setAttribute('href', 'dark-styel.css');
+        themeStyle.setAttribute('href', 'light-styel.css');
         isDarkMode = true;
     }
 });
